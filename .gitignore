@@ -1,39 +1,7 @@
 *
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
 
 !*.cpp
 !*.c
 !*.h
 !*.py
-<<<<<<< HEAD
-!*.txt
-=======
-!*.txt
->>>>>>> d67cb60538460f585af60c5424c97efb5fe118a9
+
