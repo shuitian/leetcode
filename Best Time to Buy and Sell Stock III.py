@@ -67,4 +67,4 @@ if __name__ == '__main__':
 	p2 = [1,100]
 	#print s.maxProfit(prices)
 	#print s.maxProfit(p1)
-	print s.maxProfit(p2)
+	print s.maxProfit(prices)
