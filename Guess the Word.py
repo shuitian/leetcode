@@ -18,6 +18,7 @@ class Solution(object):
 		"""
 		while wordlist:
 			word = self.get_best_word(wordlist)
+			
 			ret = master.guess(word)
 			if ret == 6:
 				return 
