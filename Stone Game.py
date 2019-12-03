@@ -4,7 +4,7 @@ class Solution(object):
 		:type piles: List[int]
 		:rtype: bool
 		"""
-		# 只要和为奇数，就恒为true，先手比赢
+		# 只要和为奇数，就恒为true，先手必赢
 		return True
 
 		number = len(piles)

@@ -17,7 +17,6 @@ class LRUCache(object):
 		self.tail = None
 		self.data = {}
 		self.capacity = capacity
-		self.current_number = 0
 
 	def get(self, key):
 		"""
@@ -41,14 +40,11 @@ class LRUCache(object):
 		node = self.data.get(key, None)
 		if node:
 			self.remove_node(node)
-			self.current_number -= 1
 
-		if self.current_number >= self.capacity:
-			self.current_number -= 1
+		if len(self.data) >= self.capacity:
 			self.remove_node(self.tail)
 
 		n = Node(key, value)
-		self.current_number += 1
 		self.set_first(n)
 
 	def remove_node(self, node):
